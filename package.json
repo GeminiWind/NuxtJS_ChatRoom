@@ -1,0 +1,47 @@
+{
+  "name": "nuxtjs-chatroom",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "GeminiWind <gemini.wind285@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "backpack dev",
+    "build": "nuxt build && backpack build",
+    "start": "cross-env NODE_ENV=production node build/main.js",
+    "precommit": "npm run lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bootstrap": "^3.3.7",
+    "cross-env": "^5.0.0",
+    "express": "^4.15.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "nuxt": "^1.0.0-alpha.3",
+    "push.js": "^1.0.4",
+    "socket.io-client": "^2.0.3",
+    "source-map-support": "^0.4.15",
+    "sweetalert2": "^6.6.6",
+    "vee-validate": "^2.0.0-rc.7",
+    "vodal": "^2.2.0",
+    "vue-chat-scroll": "^1.2.0",
+    "vue-infinite-loading": "^2.1.3",
+    "vue-letter-avatar": "^0.1.4",
+    "vue-moment": "^2.0.2",
+    "vue-select": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "backpack-core": "^0.3.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^2.0.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
